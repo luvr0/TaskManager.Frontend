@@ -83,7 +83,7 @@ npm run type-check # validates types with tsc --noEmit
 
 ## Project Demonstration
 
-link
+https://github.com/user-attachments/assets/2fd27057-faa9-4708-a78d-f51f2ab8f680
 
 ---
 
