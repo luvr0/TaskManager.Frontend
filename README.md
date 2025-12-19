@@ -30,8 +30,8 @@ TaskManager Frontend provides a responsive experience for authentication, board 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/luvr0/TaskManager_Front.git
-cd TaskManager_Front
+git clone https://github.com/luvr0/TaskManager.Frontend.git
+cd TaskManager.Front
 npm install
 ```
 
@@ -49,15 +49,6 @@ npm run dev        # starts http://localhost:3000
 npm run lint       # applies ESLint + @stylistic rules
 npm run type-check # validates types with tsc --noEmit
 ```
-
----
-
-## Configuration
-
-* **API base:** set `NEXT_PUBLIC_OPERATION_URL` in `.env.local` (e.g., `https://localhost:5001/api`).
-* **Theme:** adjust `src/lib/theme.ts` for custom palettes, typography, and spacing.
-* **Timeouts and headers:** can be changed in `src/services/apiClient.ts` and `authService.ts`.
-* **Route protection:** `src/contexts/AuthContext.tsx` controls session bootstrap and redirects.
 
 ---
 
